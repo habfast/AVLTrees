@@ -1,0 +1,35 @@
+{
+  "name": "avltrees",
+  "version": "1.0.0",
+  "description": "Self balancing trees in ES6, supporting Array.from, iteration, etc. All operations are in log(n).",
+  "main": "AVLTree.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habfast/AVLTrees.git"
+  },
+  "keywords": [
+    "AVL",
+    "ES6"
+  ],
+  "author": "Paul Habfast",
+  "license": "GPL 2.0",
+  "bugs": {
+    "url": "https://github.com/habfast/AVLTrees/issues"
+  },
+  "homepage": "https://github.com/habfast/AVLTrees#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-watch": "^4.3.5"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.18",
+    "gulp-babel": "^6.1.0"
+  }
+}
